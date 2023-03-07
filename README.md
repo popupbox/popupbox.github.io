@@ -1,49 +1,80 @@
-# Vonge
+# Hydra
 
-Vonge is a Personal portfolio/blog site template for Jekyll. Browse through a [live demo](https://jazzed-kale.cloudvent.net/).
+Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/).
 Increase the web presence of your brand with this configurable theme.
 
-![Vonge template screenshot](_screenshot.png)
+![Hydra template screenshot](images/_screenshot.png)
 
-Vonge was made by [CloudCannon](http://cloudcannon.com/), the JAMStack Cloud CMS.
-The component library is built and maintained for use with [Bookshop](https://github.com/cloudcannon/bookshop/)
+Hydra was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
 
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Community](https://cloudcannon.com/community/).
+Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/vonge-jekyll-bookshop-template)
+[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/hydra-jekyll-template)
 
 ## Features
 
-* Component library for website building
-* Fully configurable Website
+* Contact form
 * Pre-built pages
 * Pre-styled components
-* Blog
-* Category pages
-* Testimonials
-* Portfolio
-* Live editing with [CloudCannon](http://cloudcannon.com/)
+* Blog with pagination
+* Post category pages
+* Disqus comments for posts
+* Staff and author system
+* Configurable footer
 * Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* Search engine optimisation
+* RSS/Atom feed
+* SEO tags
+* Google Analytics
+
+## Setup
+
+1. Add your site and author details in `_config.yml`.
+2. Add your Google Analytics and Disqus keys to `_config.yml`.
+3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
 
 ## Develop
 
-Vonge was built with [Jekyll](http://jekyllrb.com/) version 4.2.0, but should support newer versions as well.
+Hydra was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
-Install the dependencies for Bookshop:
-
-~~~bash
-$ npm install
-~~~
-
-Install the Jekyll dependencies with [Bundler](http://bundler.io/):
+Install the dependencies with [Bundler](http://bundler.io/):
 
 ~~~bash
-$ npm run install-jekyll
+$ bundle install
 ~~~
 
-Run the website:
+Run `jekyll` commands through Bundler to ensure you're using the right versions:
 
 ~~~bash
-$ npm start
+$ bundle exec jekyll serve
 ~~~
+
+## Editing
+
+Hydra is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in CloudCannon.
+
+### Posts
+
+* Add, update or remove a post in the *Posts* collection.
+* The **Staff Author** field links to members in the **Staff** collection.
+* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
+* Change the defaults when new posts are created in `_posts/_defaults.md`.
+
+### Contact Form
+
+* Preconfigured to work with CloudCannon, but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
+* Sends email to the address listed in company details.
+
+### Staff
+
+* Reused around the site to save multiple editing locations.
+* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
+
+### Navigation
+
+* Exposed as a data file to give clients better access.
+* Set in the *Data* / *Navigation* section.
+
+### Footer
+
+* Exposed as a data file to give clients better access.
+* Set in the *Data* / *Footer* section.
