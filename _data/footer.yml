@@ -5,10 +5,14 @@
     link: /
   - name: intro
     link: /
-- links:
   - name: Eco-frendly
     link: /
+- links:
   - name: Brand
     link: /
   - name: Contact
+    link: /
+  - name: Login
+    link: /
+  - name: Sign UP
     link: /
