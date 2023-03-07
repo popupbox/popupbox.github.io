@@ -1,10 +1,10 @@
 - links:
   - name: Problem
-    link: /
+    link: 
   - name: survey
-    link: /
+    link: 
   - name: intro
-    link: /
+    link: 
   - name: Eco-frendly
     link: /
 - links:
@@ -15,4 +15,13 @@
   - name: Login
     link: /
   - name: Sign UP
+    link: /
+- links:
+  - name: About
+    link: /
+  - name: Docs
+    link: /
+  - name: Blog
+    link: /
+  - name: ETC.
     link: /
