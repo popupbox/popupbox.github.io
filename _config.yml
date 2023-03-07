@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: PopUp!
+url: "https://popupbox.github.io/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: 보관/이동이 용이한 분리형 팝콘 패키지 “팝업”
 author:
   name:
   email:
@@ -23,7 +23,7 @@ social:
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: Asia/Seoul
 
 collections:
   staff_members:
