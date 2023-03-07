@@ -1,24 +1,24 @@
 - name: problem
   link: 
   new_window: false
-  highlight: false
+  highlight: true
 - name: survey
   link: 
   new_window: false
-  highlight: false
+  highlight: true
 - name: intro
   link: /
   new_window: false
-  highlight: false
+  highlight: true
 - name: Eco-frendly
   link: /
   new_window: false
-  highlight: false
+  highlight: true
 - name: Brand
   link: /
-  new_window: true
-  highlight: false
+  new_window: false
+  highlight: true
 - name: Contact
   link: /
-  new_window: true
+  new_window: false
   highlight: true
