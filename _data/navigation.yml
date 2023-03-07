@@ -1,9 +1,9 @@
 - name: problem
-  link: /
+  link: 
   new_window: false
   highlight: false
 - name: survey
-  link: /
+  link: 
   new_window: false
   highlight: false
 - name: intro
